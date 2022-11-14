@@ -1,0 +1,94 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(/image/bg_4.jpg);
+}
+/*header*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 7%;
+    border-bottom: 1px solid #fff;
+}
+.logo {
+    width: 140px;
+    cursor: pointer;
+}
+.nav-links li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.row {
+    display: block;
+    background-color: rgb(0, 0, 0, 0.5);
+    text-align: center;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.col h2 {
+    color: #fff;
+}
+.col p {
+    color: #fff;
+}
+.content {
+    display: block;
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 490px;
+}
+ p {
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+.about-img {
+    display: block;
+    height: 490px;
+}
+
+.ftco-section {
+    display: block;
+    padding: 2em 0;
+    position: relative;
+}
+.ftco-services {
+    color: #1d150b;
+    background: #c49b63;
+}
+.img {
+    width: 200px;
+    align-items: center;
+}
+
+.row-1 {
+    text-align: center;
+    height: 200px;
+}
+
+.row-1 h3 {
+    color: #fff;
+}
+.row-1 h1 {
+    color: #fff;
+}
+
+.item-menu {
+    display: inline-block;
+    text-align: center;
+    padding: 2em;
+    width: 24%;
+}
+.item-menu h3 {
+    color: #fff;
+}
